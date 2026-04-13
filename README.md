@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# 📱 Instaup - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Interface web para gerenciamento de usuários, permitindo cadastrar, listar, editar e deletar. 
+Consome a API REST desenvolvida em Node.js e MySQL.
 
-## Available Scripts
+## 🛠️ Tecnologias utilizadas
 
-In the project directory, you can run:
+- [React](https://reactjs.org/)
+- [Axios](https://axios-http.com/)
+- [Styled Components](https://styled-components.com/)
+- [React Toastify](https://fkhadra.github.io/react-toastify/)
 
-### `npm start`
+## 📋 Pré-requisitos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Antes de começar, você precisa ter instalado:
+- [Node.js](https://nodejs.org/) (v18 ou superior)
+- [Git](https://git-scm.com/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚙️ Como rodar localmente
 
-### `npm test`
+```bash
+# Clone o repositório
+git clone https://github.com/Gabi-data/frontend-instaup.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Entre na pasta
+cd frontend-instaup
 
-### `npm run build`
+# Instale as dependências
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Inicie o projeto
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🔗 Repositório da API
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Este frontend consome a API disponível em:
+👉 [backend-api-instaup](https://github.com/Gabi-data/backend-api-instaup)
 
-### `npm run eject`
+## 📸 Preview
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Instaup Preview](./preview.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📦 Estrutura do projeto
+frontend/
+├── src/
+│   ├── components/
+│   │   ├── Form.js
+│   │   └── Grid.js
+│   ├── styles/
+│   │   └── global.js
+│   └── App.js
+└── package.json
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 👩‍💻 Autora
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Feito por **Gabrielly** — [GitHub](https://github.com/Gabi-data)
 
-## Learn More
+A linha do Preview vai mostrar uma imagem do projeto — se quiser, tira um print da tela, salva como preview.png na raiz do frontend e sobe junto no GitHub. Fica muito mais profissional para empresas verem! 😊Sonnet 4.6
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📦 Estrutura do projeto
