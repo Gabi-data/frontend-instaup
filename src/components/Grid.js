@@ -49,9 +49,9 @@ const formatDate = (dateString) => {
   return date.toLocaleDateString("pt-BR");
 };
 
-const Grid = ({ users, setUsers, setOnEdit, getUsers }) => {  {/* ✅ apenas uma declaração */}
+const Grid = ({ users, setUsers, setOnEdit, getUsers }) => { 
 
-  const handleEdit = (item) => {   {/* ✅ era handleEditt com dois t */}
+  const handleEdit = (item) => { 
     setOnEdit(item);
   };
 
@@ -89,7 +89,7 @@ const Grid = ({ users, setUsers, setOnEdit, getUsers }) => {  {/* ✅ apenas uma
             <Td width="15%" onlyWeb>{formatDate(item.data_nascimento)}</Td>
             <Td width="15%" onlyWeb>{item.password}</Td>
             <Td aligncenter width="5%">
-              <FaEdit onClick={() => handleEdit(item)} />   {/* ✅ nome correto */}
+              <FaEdit onClick={() => handleEdit(item)} /> 
             </Td>
             <Td aligncenter width="5%">
               <FaTrash onClick={() => handleDelete(item.id)} />
