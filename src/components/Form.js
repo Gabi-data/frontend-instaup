@@ -70,7 +70,7 @@ const Form = ({ onEdit, setOnEdit, getUsers }) => {
 
     if (onEdit) {
       await axios
-        .put("http://localhost:8800/" + onEdit.id, {
+        .put("https://api-instaup.onrender.com" + onEdit.id, {
           nome: user.nome.value,
           email: user.email.value,
           user: user.user.value,
@@ -81,7 +81,7 @@ const Form = ({ onEdit, setOnEdit, getUsers }) => {
         .catch(({ data }) => toast.error(data));
     } else {
       await axios
-        .post("http://localhost:8800/", {
+        .post("https://api-instaup.onrender.com", {
           nome: user.nome.value,
           email: user.email.value,
           user: user.user.value,

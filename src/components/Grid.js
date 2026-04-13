@@ -57,7 +57,7 @@ const Grid = ({ users, setUsers, setOnEdit, getUsers }) => {
 
   const handleDelete = async (id) => {
     await axios
-      .delete("http://localhost:8800/" + id)
+      .delete("https://api-instaup.onrender.com" + id)
       .then(({ data }) => {
         toast.success(data);
         getUsers();
